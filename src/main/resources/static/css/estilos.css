@@ -1,0 +1,222 @@
+/*Hoja de estilos de la clase*/
+/*id.... #xxxxx*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#encabezado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10.5%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#encabezado h1{
+    display: inline;
+}
+
+#menu {
+    position: absolute;
+    top: 10.5%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: lightslategrey;
+    color: white;
+}
+
+#menu a {
+    background-color: white;
+    color: black;
+}
+
+#menu a:over {
+    color: white;
+}
+
+#barralateral {
+    position: absolute;
+    top: 10.5%;
+    left: 0;
+    height: 81%;
+    width: 20%;
+    background-color: gray;
+    padding: 10px;
+    text-justify: auto;
+    overflow: auto;
+}
+
+#contenido {
+    position: absolute;
+    top: 10.5%;
+    left: 20%;
+    height: 81%;
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+    overflow: auto;
+}
+
+#contenidoEs {
+    position: absolute;
+    top: 10.5%;
+    height: 81%;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    overflow: auto;
+}
+
+#footer{
+    position: absolute;
+    top: 91%;
+    left: 0;
+    height: 9%;
+    width: 100%;
+    background-color: darkslategrey;
+    color: white;
+}
+
+
+#footerEs{
+    position: absolute;
+    top: 91%;
+    height: 9%;
+    background-color: darkslategrey;
+    color: white;
+    left: 0;
+    width: 100%;
+}
+
+#encabezadoTabla {
+    background-color: black;
+    color: white;
+}
+
+#tablaResumen tr:nth-child(odd){
+    background-color: white;
+    
+}
+
+
+#tablaResumen tr:nth-child(even){
+    background-color: lightgrey;
+    
+}
+
+.body {
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+}
+
+
+.bodyEs {
+    font-family: sans-serif;
+}
+
+
+.header{
+    background-color: black;
+    height: 81px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none; 
+}
+
+.logo {
+    font-weight: bold;
+    padding: 10px 40px;
+    line-height: 0px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    width: max-content;
+}
+
+.nav-menu-link:hover {
+    background-color: #024070;
+    transition: 0.5s;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+
+.nav-link-sp {
+    color: white;
+    text-decoration: none; 
+}
+
+.nav-menu-sp {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item-sp {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 62px;
+    width: max-content;
+}
+
+.nav-menu-link-sp {
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.equipo {
+    display: flex;
+}
+
+.nav-menu-equipo {
+    margin-right: 40px;
+}
+
+.nav-menu-link-equipo:hover {
+    background-color: lightblue;
+    transition: 0.5s;
+}
+
+.nav-menu-link-equipo {
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none; 
+    color: white;
+    background-color: #024070;
+}
